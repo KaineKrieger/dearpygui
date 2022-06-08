@@ -1,10 +1,14 @@
 import dearpygui.dearpygui as dpg
-import dearpygui.demo as demo
 
 dpg.create_context()
-dpg.create_viewport(title='Custom Title', width=600, height=600)
+dpg.create_viewport(title='Custom Title', width=600, height=300)
 
-demo.show_demo()
+with dpg.window(label="Radahn fight advice"):
+    dpg.add_text("this program will take inputs from you to then give you advice on how to beat Radahn")
+    dpg.add_input_text(label="Level")
+    dpg.add_input_text(label="Vigor Stat")
+    dpg.add_combo(label="", default_value=" ")
+    dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
 dpg.setup_dearpygui()
 dpg.show_viewport()
