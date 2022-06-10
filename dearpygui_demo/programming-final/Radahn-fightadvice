@@ -3,12 +3,31 @@ import dearpygui.dearpygui as dpg
 dpg.create_context()
 dpg.create_viewport(title='Custom Title', width=600, height=300)
 
+lvl = (0)
+VGR = (10)
+
+weapon_melee_range = ["this", "that", "the other"]
+
+weapon_lvl = ["this", "that", "the other"]
+
+main_weapon_material = ["this", "that", "the other"]
+
+
+
 with dpg.window(label="Radahn fight advice"):
     dpg.add_text("this program will take inputs from you to then give you advice on how to beat Radahn")
-    dpg.add_input_text(label="Level")
-    dpg.add_input_text(label="Vigor Stat")
+    
+    lvl = int(dpg.add_input_text(label="Level"))
+    
+    VGR = int(dpg.add_input_text(label="Vigor Stat"))
+    
+    dpg.add_combo(weapon_lvl, label="main weapon upgrade lvl", default_value="+0")
+    
+    dpg.add_combo(label="main weapons upgrade material", default_value="normal Smithing stone")
+    dpg.add_combo(label="ranged or melee weapon?", default_value="melee")
     dpg.add_combo(label="", default_value=" ")
-    dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
+    dpg.add_combo(label="Focused main ATK Stat", default_value="STR")
+    dpg.add_combo(label="last main boss killed", default_value="Godrick")
 
 dpg.setup_dearpygui()
 dpg.show_viewport()
