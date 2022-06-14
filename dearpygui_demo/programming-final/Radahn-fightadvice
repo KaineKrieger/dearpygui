@@ -3,17 +3,18 @@ import dearpygui.dearpygui as dpg
 dpg.create_context()
 dpg.create_viewport(title='Custom Title', width=600, height=300)
 
-lvl = (0)
+lvl = (10)
 VGR = (10)
 
-weapon_melee_range = ["this", "that", "the other"]
+weapon_type = ["Melee", "Ranged", ]
 
-weapon_lvl = ["this", "that", "the other"]
+main_weapon_material = ["Smithing Stone", "Somber Smithing Stone"]
 
-main_weapon_material = ["this", "that", "the other"]
+weapon_lvl = ["+1", "+2", "+3", "+4",  "+5", "+6", "+7", "+8", "+9", "+10", "+11", "+12", "+13", "+14", "+15",  "+16", "+17", "+18", "+19", "+20", "+21", "+22", "+23", "+24", "+25"]
 
+main_stat = ["STR", "DEX", "INT", "FAITH"]
 
-
+last_boss = ["Godrick", "Renalla", "morgott" "Mohg", "Rykard", "Malenia's"]
 with dpg.window(label="Radahn fight advice"):
     dpg.add_text("this program will take inputs from you to then give you advice on how to beat Radahn")
     
@@ -23,11 +24,20 @@ with dpg.window(label="Radahn fight advice"):
     
     dpg.add_combo(weapon_lvl, label="main weapon upgrade lvl", default_value="+0")
     
-    dpg.add_combo(label="main weapons upgrade material", default_value="normal Smithing stone")
-    dpg.add_combo(label="ranged or melee weapon?", default_value="melee")
-    dpg.add_combo(label="", default_value=" ")
-    dpg.add_combo(label="Focused main ATK Stat", default_value="STR")
-    dpg.add_combo(label="last main boss killed", default_value="Godrick")
+    dpg.add_combo(main_weapon_material, label="main weapons upgrade material", default_value="stone type")
+
+    dpg.add_combo(weapon_type, label="favored attack style", default_value="weapon type")
+
+    dpg.add_combo(main_stat, label="Focused main ATK Stat", default_value="stat")
+
+    dpg.add_combo(last_boss, label="last great rune boss killed", default_value="Godrick")
+
+
+
+
+
+
+
 
 dpg.setup_dearpygui()
 dpg.show_viewport()
