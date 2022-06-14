@@ -39,6 +39,57 @@ with dpg.window(label="Radahn fight advice"):
 
 
 
+"You should be at least level sixty to fight Radahn."
+
+"You are at the right level to fight Radahn."
+
+"You are at a higher level than is recommended for fighting Radahn."
+
+"Why are you fighting Radahn at such a  high level and still needing advice"
+
+"Why are you so low level, you should level up before you try and fight Radahn to at least 60"
+
+"You should have at least thirty vigor before fighting Radahn."
+
+"You are at the right Vigor to fight Radahn."
+
+"You are at a higher Vigor than is needed to fight Radahn."
+
+"Why do you have your vigor so high, that is seriously unneeded and kind of a waste of your points"
+
+"How is your vigor so low, is that even possible to have without hacking the game?"
+
+"you should at least kill Renalla and start ranni's questline before going to fight Radahn"
+
+"For melee STR builds, the best weapon for you to use is the Greatsword, consider using flame resin for added damage or a fire ash of war, bestial incantations to give yourself an edge and use flame grant me strength with the aforementioned fire resin. Get in close and duck out fast, stay behind him and use torrent plenty for faster speed, a constant assault with good dodging or blocking as well as using the summons is your key to victory."
+
+"For ranged STR builds it would be best to use ranged ashes of war on a heavy weapon, such as a heavy weapon with storm blade or bestial roar, the greatsword is still a great pick but consider mixing in a crossbow, I recommend the jar cannon powerful hand ballistae that you can use to deal great ranged damage, while it doesn’t scale it does have great base damage. Keep a lot of spacing and use the summons to take his aggro to assure your victory."
+
+"For melee DEX builds, the best weapon for you to use is the Uchigatana, overall it is very versatile for almost any playstyle, however, what else is good is mixing in different ashes of war, dual-wielding katanas, or curved swords, and if you can find a way to deal scarlet rot, do so. Get in close and duck out fast, stay behind him and use torrent plenty for faster speed, a constant assault with good dodging or blocking as well as using the summons is your key to victory."
+
+"For ranged DEX builds, the serpents bow, the horn bow, the pulley bow, as well as the enchanted shot ash of war, will be your best friends, try combining different status effects and damage types with arrows for maximum effect, scarlet rot is best but he can also be affected by frost and poison. Keep a lot of spacing and use the summons to take his aggro to assure your victory."
+
+"For melee INT builds Moonviel is a great option with great scaling and overall is very powerful, however, if you want a more versatile option consider the misericorde with the Carian grandeur ash of war or the chilling mists ash of war. Get in close and duck out fast, stay behind him and use torrent plenty for faster speed, a constant assault with good dodging or blocking and using the summons is your key to victory."
+
+"For ranged INT builds you are going to be spamming a lot of magic, it is best to mix in frost magic as well as using Renalla’s great moon if you are able too, as the combination of both will increase the amount of damage he takes. For your staff consider also using Renalla’s boss rune staff, however, the meteorite staff and Lusats staff are good picks as well. Keep a lot of spacing and use the summons to take his aggro to assure your victory."
+
+"For melee FAITH builds the tree sentinels halberd is a great choice for more strength centered, consider using bestial or fire incantations as they can help improve your versatility, however for more dexterity builds consider mixing dual scythes, Miquella’s scythe, and the winged scythe specifically. For a more versatile build consider using a normal weapon and applying lighting or holy effects to it. Stack as many buffs as you can with sacred vow and flame grant me strength. Get in close and duck out fast, stay behind him and use torrent plenty for faster speed, a constant assault with good dodging or blocking and using the summons is your key to victory."
+
+"For ranged FAITH builds consider using lighting or fire incantations as he is generally weaker to them, consider also using dragon incantation, specifically the rot breath as his weakness to it is very major, also add ice breath if you can to maximize on debuffs, for seals there are many that are good, however for this early game, the dragon communion seal will be one of the best possible to obtain. Also, consider the Godslayer seal as the incantations it buffs are also fire incantations, even if it is black fire it still does increased damage to Radahn.  Keep a lot of spacing and use the summons to take his aggro to assure your victory."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dpg.setup_dearpygui()
 dpg.show_viewport()
 dpg.start_dearpygui()
